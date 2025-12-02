@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "seu@email.com",
+                "Name": "Seu Nome"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Monitor de ações e criptomoedas via Yahoo Finance",
+        "Icon": "office-chart-line",
+        "Id": "org.kde.plasma.financetracker",
+        "License": "GPL-2.0+",
+        "Name": "Finance Tracker",
+        "Version": "1.0",
+        "Website": "https://github.com/seuusuario/finance-tracker"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.financetracker"
+    ]
+}

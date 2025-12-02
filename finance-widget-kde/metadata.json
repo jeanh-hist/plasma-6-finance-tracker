@@ -1,0 +1,26 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "jeanv_hist@proton.me",
+                "Name": "J. H. M. Viana"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Yahoo Finance stock and crypto monitoring widget",
+        "Icon": "office-chart-line",
+        "Id": "org.kde.plasma.financetracker",
+        "License": "MIT",
+        "Name": "Finance Tracker",
+        "Version": "1.0",
+        "Website": "https://github.com/jeanh-hist/plasma-6-finance-tracker",
+        "EnabledByDefault": true
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-ConfigPlugins": [
+        "kcm_plasmaconfig"
+    ]
+}
